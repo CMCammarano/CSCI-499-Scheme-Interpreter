@@ -3,7 +3,7 @@ README
 
 Name: Colin Cammarano
 
-Email: colincammarano@gmail.com
+Email: colincammarano@outlook.com
 
 Overview:
 ---------------------------
@@ -17,6 +17,9 @@ Code:
 
 SchemeEnvironment.java:
  + The main entry point class for the Scheme interpreter. This class was designed and implemented as part of the assignment. Parsing support for all of the required Scheme primitives and functions was implemented within this file. The main method contains a quasi-infinite loop that runs until the user types the (exit) command, at which point, the loop exits and the program terminates normally. Within this loop, the user is prompted to input a command into the command line. Once entered, the command string is parsed by a static method read in the SchemeObject class, which outputs a SchemeObject (a linked list of SchemePairs) containing the entered text. Once the object is created, the type of command entered is determined. If the command is valid, it is parsed by one of several methods; otherwise, the application throws an exception and the user is prompted to enter a new command. Exceptions are used to handle incorrect inputs.
+
+Other:
+ + All other code (SchemeObjects) was provided by Professor Michael Shindler.
 
 Other Files:
 ---------------------------
