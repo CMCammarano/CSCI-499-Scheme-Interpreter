@@ -3,7 +3,7 @@ README
 
 Name: Colin Cammarano
 
-Email: colincammarano@outlook.com
+Email: me@colincammarano.com
 
 Overview:
 ---------------------------
